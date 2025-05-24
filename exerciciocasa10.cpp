@@ -2,6 +2,8 @@
 int main(){
 	char  R;
 	int a, b;
+		printf("escolha  uma operacao '/,+,-,*' ou S: ");
+	scanf (" %c", &R);
 	while(R!='S'){
 		printf("escolha  uma operacao '/,+,-,*' ou S: ");
 	scanf (" %c", &R);
@@ -26,6 +28,7 @@ int main(){
 				printf("encerrando \n");
 			break;
 			default:
+				printf("bye");
 				break;
 		}
 	}
